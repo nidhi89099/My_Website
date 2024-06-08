@@ -1,0 +1,75 @@
+body {
+  background-image: url("https://images.pexels.com/photos/172288/pexels-photo-172288.jpeg?auto=compress&cs=tinysrgb&w=600");
+  margin: 0 auto;
+  padding: 25px;
+  max-width: 400px;
+  min-width: 400px;
+  background-color: #dfe6e9;
+  font-style: italic;
+}
+.heading {
+  outline: thick ridge pink;
+  text-align: center;
+  color: rgb(58, 17, 153);
+}
+
+.quantity-container {
+  display: flex;
+  align-items: center;
+}
+
+.quantity-container input {
+  width: 40px;
+  padding: 4px;
+}
+.place-order-container {
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.place-order-button {
+  padding: 10px 20px;
+  background-color: #211c1a;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.place-order-button:hover {
+  background-color: #470fc8;
+}
+.table-container {
+  width: 100%;
+  border-collapse: separate;
+  background-color: #cfc4c4;
+  text-align: left;
+  padding: 10px;
+  font-size: 20px;
+}
+
+td {
+  padding: 10px;
+  color: #100b1b;
+  font-weight: bold;
+}
+.nameStyle {
+  color: aqua;
+}
+.priceStyle {
+  color: rgb(7, 2, 19);
+}
+.cart {
+  border: 1.5px solid;
+  position: absolute;
+  right: 0;
+  width: 300px;
+  top: 0;
+  margin-right: 150px;
+  margin-top: 175px;
+  background-color: #9f3131;
+}
+.table {
+}
